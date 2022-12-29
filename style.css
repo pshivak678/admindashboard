@@ -34,6 +34,12 @@
     background-color: #f0abfc;
 }
 
+.side{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .projects{
     grid-column-start: 2;
     grid-column-end: 3;
