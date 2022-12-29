@@ -1,0 +1,100 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 100fr 200fr 100fr;
+    grid-template-rows: 5cm 10cm 10cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1cm;
+    text-align: center;
+    gap: 10px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 10px;
+}
+
+.header{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #f0abfc;
+    display: grid;
+    grid-template-areas: auto auto;
+}
+
+.header-top{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #f0abfc;
+}
+
+.projects{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color:#d946ef;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.project-divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.recipie-book,.rps,.etchasketch,.calculator{
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: 10px;
+    background-color: aliceblue;
+    font-size: 25px;
+    display: grid;
+    grid-template-rows: 2fr, 1fr;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+}
+
+.todolist{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:#f5d0fe;
+    display: flex;
+    flex-direction: column;  
+}
+
+.earnings{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color:#f5d0fe;
+}
+
+.earnings-image{
+    height: 300px;
+    width: 300px;
+    bottom: 10px;
+}
+
+.material-symbols-outlined{
+ font-size: 10px;
+ color: rgb(0, 0, 0);
+}
+
+
